@@ -17,10 +17,11 @@
         android:padding="10dp"/>
 
     <ExpandableListView
+
         android:layout_below="@+id/text"
         android:id="@+id/simpleExpandableListView"
         android:layout_width="match_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:background="#fff"
         android:divider="#eb8989"
         android:childDivider="#87ceeb"

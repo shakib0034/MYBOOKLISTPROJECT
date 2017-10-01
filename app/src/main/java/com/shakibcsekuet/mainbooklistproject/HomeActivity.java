@@ -106,21 +106,7 @@ public class HomeActivity extends AppCompatActivity {
         addProduct("KUET","EEE");
         addProduct("KUET","MECANICAL");
 
-        addProduct("BUET","CSE");
-        addProduct("BUET","EEE");
-        addProduct("BUET","MECANICAL");
 
-        addProduct("RUET","CSE");
-        addProduct("RUET","EEE");
-        addProduct("RUET","MECANICAL");
-
-        addProduct("CUET","CSE");
-        addProduct("CUET","EEE");
-        addProduct("CUET","MECANICAL");
-
-        addProduct("DU","CSE");
-        addProduct("DU","EEE");
-        addProduct("DU","Chemistry");
 
     }
 
