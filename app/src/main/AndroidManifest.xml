@@ -47,6 +47,14 @@
         <activity
             android:name=".cse_3rd_2nd"
             android:label="CSE"></activity>
+        <activity
+            android:name=".cse_4th_1st"
+            android:label="CSE"></activity>
+
+        <activity
+            android:name=".cse_4th_2nd"
+            android:label="CSE"></activity>
+
 
 
     </application>

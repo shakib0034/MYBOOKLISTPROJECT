@@ -56,6 +56,14 @@ public class CSE extends AppCompatActivity  {
                     Intent intent = new Intent(getApplicationContext(), cse_3rd_2nd.class);
                     startActivity(intent);
                 }
+                else if(position==6){
+                    Intent intent = new Intent(getApplicationContext(), cse_4th_1st.class);
+                    startActivity(intent);
+                }
+                else if(position==7){
+                    Intent intent = new Intent(getApplicationContext(), cse_4th_2nd.class);
+                    startActivity(intent);
+                }
 
 
 
