@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="379dp"
+        android:layout_height="50dp"
+        android:text="BOOKLIST of 1ST YEAR 1ST SEMISTER"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#89ebd3"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        />
+
+    <ListView
+        android:id="@+id/simpleListView2"
+        android:background="#92d3ed"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/material_blue_grey_800"
+        android:dividerHeight="1dp" />
+</LinearLayout>
