@@ -13,7 +13,6 @@
         android:textColor="@color/colorPrimary"
         android:textSize="20sp"
         />
-
     <ListView
         android:id="@+id/simpleListView2"
         android:background="#92d3ed"
@@ -21,4 +20,8 @@
         android:layout_height="wrap_content"
         android:divider="@color/material_blue_grey_800"
         android:dividerHeight="1dp" />
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
