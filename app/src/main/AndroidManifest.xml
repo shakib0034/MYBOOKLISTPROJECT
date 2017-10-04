@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.shakibcsekuet.mainbooklistproject">
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -19,45 +20,54 @@
         </activity>
         <activity
             android:name=".HomeActivity"
-            android:label="@string/title_activity_my"></activity>
+            android:label="@string/title_activity_my" />
         <activity
             android:name=".AboutActivity"
-            android:label="@string/title_activity_about"></activity>
+            android:label="@string/title_activity_about" />
         <activity
             android:name=".ContactActivity"
-            android:label="@string/title_activity_contact"></activity>
+            android:label="@string/title_activity_contact" />
         <activity
             android:name=".CSE"
-            android:label="CSE"></activity>
-
+            android:label="CSE" />
         <activity
-        android:name=".cse_1st_1st"
-        android:label="CSE"></activity>
+            android:name=".cse_1st_1st"
+            android:label="CSE" />
         <activity
             android:name=".cse_1st_2nd"
-            android:label="CSE"></activity>
+            android:label="CSE" />
         <activity
             android:name=".cse_2nd_1st"
-            android:label="CSE"></activity>
+            android:label="CSE" />
         <activity
             android:name=".cse_2nd_2nd"
-            android:label="CSE"></activity>
+            android:label="CSE" />
         <activity
             android:name=".cse_3rd_1st"
-            android:label="CSE"></activity>
+            android:label="CSE" />
         <activity
             android:name=".cse_3rd_2nd"
-            android:label="CSE"></activity>
+            android:label="CSE" />
         <activity
             android:name=".cse_4th_1st"
-            android:label="CSE"></activity>
-
+            android:label="CSE" />
         <activity
             android:name=".cse_4th_2nd"
-            android:label="CSE"></activity>
-
-
-
+            android:label="CSE" />
+        <activity android:name=".EEE" />
+        <activity android:name=".MECA" />
+        <activity
+            android:name=".CIVIL"
+            android:label="@string/title_activity_civil"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".BME" />
+        <activity android:name=".IEM" />
+        <activity android:name=".ECE" />
+        <activity android:name=".TE" />
+        <activity android:name=".URP" />
+        <activity android:name=".BECM" />
+        <activity android:name=".ET" />
+        <activity android:name=".LE"></activity>
     </application>
 
 </manifest>

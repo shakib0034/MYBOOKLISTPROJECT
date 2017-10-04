@@ -5,4 +5,5 @@
     <string name="title_activity_my">HOME</string>
     <string name="title_activity_about">About</string>
     <string name="title_activity_contact">Contact</string>
+    <string name="title_activity_civil">CIVIL</string>
 </resources>

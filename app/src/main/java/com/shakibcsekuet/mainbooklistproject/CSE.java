@@ -22,8 +22,8 @@ public class CSE extends AppCompatActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cse);
-        simpleList = (ListView)findViewById(R.id.simpleListView);
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.cse_book_listview, R.id.textView, SEMISTER_LIST);
+        simpleList = (ListView)findViewById(R.id.csesimpleListView);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.cse_book_listview, R.id.csetextView, SEMISTER_LIST);
         simpleList.setAdapter(arrayAdapter);
         simpleList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

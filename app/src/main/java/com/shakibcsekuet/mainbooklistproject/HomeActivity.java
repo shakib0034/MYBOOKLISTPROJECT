@@ -56,6 +56,52 @@ public class HomeActivity extends AppCompatActivity {
                     Intent intent = new Intent(getApplicationContext(), CSE.class);
                     startActivity(intent);
                 }
+                else if(headerInfo.getName()=="KUET" && detailInfo.getName()=="EEE"){
+                    Intent intent = new Intent(getApplicationContext(), EEE.class);
+                    startActivity(intent);
+                }
+                else if(headerInfo.getName()=="KUET" && detailInfo.getName()=="MECANICAL"){
+                    Intent intent = new Intent(getApplicationContext(), MECA.class);
+                    startActivity(intent);
+                }
+                else if(headerInfo.getName()=="KUET" && detailInfo.getName()=="CIVIL"){
+                    Intent intent = new Intent(getApplicationContext(), CIVIL.class);
+                    startActivity(intent);
+                }
+                else if(headerInfo.getName()=="KUET" && detailInfo.getName()=="BME"){
+                    Intent intent = new Intent(getApplicationContext(), BME.class);
+                    startActivity(intent);
+                }
+                else if(headerInfo.getName()=="KUET" && detailInfo.getName()=="ECE"){
+                    Intent intent = new Intent(getApplicationContext(), ECE.class);
+                    startActivity(intent);
+                }
+                else if(headerInfo.getName()=="KUET" && detailInfo.getName()=="IEM"){
+                    Intent intent = new Intent(getApplicationContext(), IEM.class);
+                    startActivity(intent);
+                }
+                else if(headerInfo.getName()=="KUET" && detailInfo.getName()=="BECM"){
+                    Intent intent = new Intent(getApplicationContext(), BECM.class);
+                    startActivity(intent);
+                }
+                else if(headerInfo.getName()=="KUET" && detailInfo.getName()=="TE"){
+                    Intent intent = new Intent(getApplicationContext(), TE.class);
+                    startActivity(intent);
+                }
+                else if(headerInfo.getName()=="KUET" && detailInfo.getName()=="ET"){
+                    Intent intent = new Intent(getApplicationContext(), ET.class);
+                    startActivity(intent);
+                }
+                else if(headerInfo.getName()=="KUET" && detailInfo.getName()=="LE"){
+                    Intent intent = new Intent(getApplicationContext(), LE.class);
+                    startActivity(intent);
+                }
+                else if(headerInfo.getName()=="KUET" && detailInfo.getName()=="URP"){
+                    Intent intent = new Intent(getApplicationContext(), URP.class);
+                    startActivity(intent);
+                }
+
+
 
 
 
@@ -105,6 +151,16 @@ public class HomeActivity extends AppCompatActivity {
         addProduct("KUET","CSE");
         addProduct("KUET","EEE");
         addProduct("KUET","MECANICAL");
+        addProduct("KUET","CIVIL");
+        addProduct("KUET","BME");
+        addProduct("KUET","ECE");
+        addProduct("KUET","IEM");
+        addProduct("KUET","BECM");
+        addProduct("KUET","TE");
+        addProduct("KUET","ET");
+        addProduct("KUET","LE");
+        addProduct("KUET","URP");
+
 
 
 
