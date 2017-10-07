@@ -160,15 +160,7 @@ public class HomeActivity extends AppCompatActivity {
         addProduct("KUET","ET");
         addProduct("KUET","LE");
         addProduct("KUET","URP");
-
-
-
-
     }
-
-
-
-
     private int addProduct(String department, String product){
 
         int groupPosition = 0;
@@ -185,11 +177,8 @@ public class HomeActivity extends AppCompatActivity {
 
 
         ArrayList<ChildInfo> productList = headerInfo.getProductList();
-
         int listSize = productList.size();
-
         listSize++;
-
 
         ChildInfo detailInfo = new ChildInfo();
         detailInfo.setSequence(String.valueOf(listSize));
